@@ -9,7 +9,7 @@ import * as React from "react";
 
 export interface PlayerVars {
     autoplay?: 0 | 1;
-    cc_load_policy?: 1;
+    cc_load_policy?: 0 | 1;
     color?: 'red' | 'white';
     controls?: 0 | 1 | 2;
     disablekb?: 0 | 1;
